@@ -79,6 +79,7 @@
       <DependentUpon>Registry.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Calendar.cd" />
+    <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -91,6 +92,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="VS_GUI_Klassendiagramme\Calendar.jpg" />
+    <Content Include="VS_GUI_Klassendiagramme\wdw_calendar.jpg" />
+    <Content Include="VS_GUI_Klassendiagramme\wdw_date.jpg" />
+    <Content Include="VS_GUI_Klassendiagramme\wdw_login.jpg" />
+    <Content Include="VS_GUI_Klassendiagramme\wdw_registry.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
