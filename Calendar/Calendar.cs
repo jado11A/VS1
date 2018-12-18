@@ -22,10 +22,15 @@ namespace WindowsFormsApp1
             Application.Exit();
         }
 
-        private void tb_open_calendar(object sender, EventArgs e)
+        private void tb_open_date(object sender, EventArgs e)
         {
-            Form open_calendar = new wdw_calendar();
-            open_calendar.Show();
+            Form tb_open_date = new wdw_date();
+            tb_open_date.Show();
+        }
+
+        private void tb_Der_Erste_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -84,6 +84,8 @@
             this.lbl_weekday = new System.Windows.Forms.Label();
             this.lbl_limitation = new System.Windows.Forms.Label();
             this.lbl_frequency = new System.Windows.Forms.Label();
+            this.btn_save = new System.Windows.Forms.Button();
+            this.btn_close = new System.Windows.Forms.Button();
             this.tab.SuspendLayout();
             this.tab_general.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).BeginInit();
@@ -662,14 +664,37 @@
             this.lbl_frequency.TabIndex = 1;
             this.lbl_frequency.Text = "frequency";
             // 
+            // btn_save
+            // 
+            this.btn_save.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_save.Location = new System.Drawing.Point(16, 582);
+            this.btn_save.Name = "btn_save";
+            this.btn_save.Size = new System.Drawing.Size(90, 30);
+            this.btn_save.TabIndex = 1;
+            this.btn_save.Text = "Save";
+            this.btn_save.UseVisualStyleBackColor = true;
+            // 
+            // btn_close
+            // 
+            this.btn_close.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_close.Location = new System.Drawing.Point(149, 582);
+            this.btn_close.Name = "btn_close";
+            this.btn_close.Size = new System.Drawing.Size(90, 30);
+            this.btn_close.TabIndex = 2;
+            this.btn_close.Text = "Close";
+            this.btn_close.UseVisualStyleBackColor = true;
+            this.btn_close.Click += new System.EventHandler(this.btn_close_Click);
+            // 
             // wdw_date
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(934, 581);
+            this.ClientSize = new System.Drawing.Size(934, 631);
+            this.Controls.Add(this.btn_close);
+            this.Controls.Add(this.btn_save);
             this.Controls.Add(this.tab);
-            this.MaximumSize = new System.Drawing.Size(950, 620);
-            this.MinimumSize = new System.Drawing.Size(950, 620);
+            this.MaximumSize = new System.Drawing.Size(950, 670);
+            this.MinimumSize = new System.Drawing.Size(950, 670);
             this.Name = "wdw_date";
             this.Text = "Date";
             this.Load += new System.EventHandler(this.wdw_Eintrag_Load);
@@ -750,6 +775,8 @@
         private System.Windows.Forms.Label lbl_times;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.Label lbl_alle;
+        private System.Windows.Forms.Button btn_save;
+        private System.Windows.Forms.Button btn_close;
     }
 }
 

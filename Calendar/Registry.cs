@@ -124,6 +124,7 @@ namespace WindowsFormsApp1
             this.btn_reg_quit.TabIndex = 8;
             this.btn_reg_quit.Text = "Quit";
             this.btn_reg_quit.UseVisualStyleBackColor = true;
+            this.btn_reg_quit.Click += new System.EventHandler(this.btn_reg_quit_Click);
             // 
             // wdw_registry
             // 
@@ -153,7 +154,14 @@ namespace WindowsFormsApp1
 
         private void btn_reg_send_Click(object sender, EventArgs e)
         {
+            Form open_calendar = new wdw_calendar();
+            open_calendar.Show();
+            Close();
+        }
 
+        private void btn_reg_quit_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

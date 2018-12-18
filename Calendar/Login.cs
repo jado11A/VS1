@@ -18,6 +18,7 @@ namespace WindowsFormsApp1
         private Label lbl_log_username;
         private Button btn_log_send;
         private Button btn_log_quit;
+        private Button wdw_registry;
         private Label lbl_log_password;
 
         public wdw_login()
@@ -34,6 +35,7 @@ namespace WindowsFormsApp1
             this.lbl_log_password = new System.Windows.Forms.Label();
             this.btn_log_send = new System.Windows.Forms.Button();
             this.btn_log_quit = new System.Windows.Forms.Button();
+            this.wdw_registry = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbl_Login
@@ -107,9 +109,21 @@ namespace WindowsFormsApp1
             this.btn_log_quit.UseVisualStyleBackColor = true;
             this.btn_log_quit.Click += new System.EventHandler(this.btn_log_quit_Click);
             // 
+            // wdw_registry
+            // 
+            this.wdw_registry.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wdw_registry.Location = new System.Drawing.Point(161, 321);
+            this.wdw_registry.Name = "wdw_registry";
+            this.wdw_registry.Size = new System.Drawing.Size(90, 30);
+            this.wdw_registry.TabIndex = 7;
+            this.wdw_registry.Text = "Registry";
+            this.wdw_registry.UseVisualStyleBackColor = true;
+            this.wdw_registry.Click += new System.EventHandler(this.wdw_registry_Click);
+            // 
             // wdw_login
             // 
             this.ClientSize = new System.Drawing.Size(409, 386);
+            this.Controls.Add(this.wdw_registry);
             this.Controls.Add(this.btn_log_quit);
             this.Controls.Add(this.btn_log_send);
             this.Controls.Add(this.lbl_log_password);
@@ -134,13 +148,19 @@ namespace WindowsFormsApp1
 
         private void btn_log_quit_Click(object sender, EventArgs e)
         {
-            Close();
+            Application.Exit();
         }
 
         private void btn_log_send_Click(object sender, EventArgs e)
         {
-            Form eintrag = new wdw_date();
-            eintrag.Show();
+            Form open_calendar = new wdw_calendar();
+            open_calendar.Show();
+        }
+
+        private void wdw_registry_Click(object sender, EventArgs e)
+        {
+            Form open_registry = new wdw_registry();
+            open_registry.Show();
         }
     }
 }
