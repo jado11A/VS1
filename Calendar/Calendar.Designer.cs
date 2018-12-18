@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp1
 {
-    partial class kalender
+    partial class wdw_calendar
     {
         /// <summary>
         /// Erforderliche Designervariable.
@@ -72,7 +72,6 @@
             this.tb_Der_Achte.Size = new System.Drawing.Size(100, 103);
             this.tb_Der_Achte.TabIndex = 0;
             this.tb_Der_Achte.Text = "8";
-            this.tb_Der_Achte.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // tb_Der_Neunte
             // 
@@ -113,7 +112,6 @@
             this.tb_Der_Zwoelfte.Size = new System.Drawing.Size(100, 103);
             this.tb_Der_Zwoelfte.TabIndex = 4;
             this.tb_Der_Zwoelfte.Text = "12";
-            this.tb_Der_Zwoelfte.TextChanged += new System.EventHandler(this.richTextBox5_TextChanged);
             // 
             // tb_Der_Dreizehnte
             // 
@@ -304,7 +302,6 @@
             this.tb_Der_Neunundzwanzigste.Size = new System.Drawing.Size(100, 103);
             this.tb_Der_Neunundzwanzigste.TabIndex = 21;
             this.tb_Der_Neunundzwanzigste.Text = "29";
-            this.tb_Der_Neunundzwanzigste.TextChanged += new System.EventHandler(this.richTextBox28_TextChanged);
             // 
             // lbl_calendar
             // 
@@ -315,7 +312,6 @@
             this.lbl_calendar.Size = new System.Drawing.Size(206, 51);
             this.lbl_calendar.TabIndex = 28;
             this.lbl_calendar.Text = "Calendar";
-            this.lbl_calendar.Click += new System.EventHandler(this.label1_Click);
             // 
             // btn_quit_calendar
             // 
@@ -337,7 +333,6 @@
             this.tb_Der_Erste.Size = new System.Drawing.Size(100, 103);
             this.tb_Der_Erste.TabIndex = 30;
             this.tb_Der_Erste.Text = "1";
-            this.tb_Der_Erste.Click += new System.EventHandler(this.btn_quit_calendar_Click);
             // 
             // tb_Der_Zweit
             // 
@@ -399,7 +394,7 @@
             this.tb_Der_Siebte.TabIndex = 36;
             this.tb_Der_Siebte.Text = "7";
             // 
-            // kalender
+            // wdw_calendar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -438,7 +433,7 @@
             this.Controls.Add(this.tb_Der_Neunte);
             this.Controls.Add(this.tb_Der_Achte);
             this.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Name = "kalender";
+            this.Name = "wdw_calendar";
             this.Text = "Kalender";
             this.ResumeLayout(false);
             this.PerformLayout();
