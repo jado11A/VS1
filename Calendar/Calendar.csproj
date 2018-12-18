@@ -49,6 +49,12 @@
     <Compile Include="Date.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Kalender.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kalender.Designer.cs">
+      <DependentUpon>Kalender.cs</DependentUpon>
+    </Compile>
     <Compile Include="Registry.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +68,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Date.resx">
       <DependentUpon>Date.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kalender.resx">
+      <DependentUpon>Kalender.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>

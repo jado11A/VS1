@@ -113,6 +113,7 @@ namespace WindowsFormsApp1
             this.btn_reg_send.TabIndex = 7;
             this.btn_reg_send.Text = "Send";
             this.btn_reg_send.UseVisualStyleBackColor = true;
+            this.btn_reg_send.Click += new System.EventHandler(this.btn_reg_send_Click);
             // 
             // btn_reg_quit
             // 
@@ -146,6 +147,11 @@ namespace WindowsFormsApp1
         }
 
         private void Registry_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_reg_send_Click(object sender, EventArgs e)
         {
 
         }
