@@ -34,3 +34,4 @@ C:\Users\Malak\Source\Repos\jado11A\VS1\Calendar\obj\Debug\Calendar.csproj.Gener
 C:\Users\Malak\Source\Repos\jado11A\VS1\Calendar\obj\Debug\Calendar.csproj.CoreCompileInputs.cache
 C:\Users\Malak\Source\Repos\jado11A\VS1\Calendar\obj\Debug\WindowsFormsApp1.exe
 C:\Users\Malak\Source\Repos\jado11A\VS1\Calendar\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Malak\source\repos\jado11A\VS1\Calendar\obj\Debug\Calendar.csprojAssemblyReference.cache
