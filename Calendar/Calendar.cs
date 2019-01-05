@@ -87,7 +87,7 @@ namespace WindowsFormsApp1
         /// </sumary>
         private void check()
         {
-            switch (check)
+            switch (monthcounter)
             {
                 case (int)MonthName.JANUAR:
                     tb_Der_Neunundzwanzigste.Enabled = true;
