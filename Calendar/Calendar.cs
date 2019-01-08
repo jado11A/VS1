@@ -62,6 +62,7 @@ namespace WindowsFormsApp1
                 monthcounter--;
             }
             btn_month.Text = month[monthcounter];
+            tb_checkbox.Text = monthcounter.ToString();
             check();
         }
 
@@ -79,6 +80,7 @@ namespace WindowsFormsApp1
                 monthcounter++;
             }
             btn_month.Text = month[monthcounter];
+            tb_checkbox.Text = monthcounter.ToString();
             check();
         }
 
