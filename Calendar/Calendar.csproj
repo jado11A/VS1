@@ -118,13 +118,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Auslagerung Check-Methode.txt" />
-    <Content Include="Database1.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Database1_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>Database1.mdf</DependentUpon>
-    </Content>
     <Content Include="VS_GUI_Klassendiagramme\Calendar.jpg" />
     <Content Include="VS_GUI_Klassendiagramme\wdw_calendar.jpg" />
     <Content Include="VS_GUI_Klassendiagramme\wdw_date.jpg" />

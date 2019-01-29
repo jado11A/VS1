@@ -44,7 +44,7 @@ namespace WindowsFormsApp1
 
         private void tb_open_date(object sender, EventArgs e)
         {
-            Form tb_open_date = new wdw_date();
+            Form tb_open_date = new wdw_Ereignis();
             tb_open_date.Show();
         }
 

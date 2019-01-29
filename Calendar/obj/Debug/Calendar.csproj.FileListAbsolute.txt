@@ -26,12 +26,12 @@ C:\Users\Malak\source\repos\jado11A\VS1\Calendar\bin\Debug\WindowsFormsApp1.exe.
 C:\Users\Malak\source\repos\jado11A\VS1\Calendar\bin\Debug\WindowsFormsApp1.exe
 C:\Users\Malak\source\repos\jado11A\VS1\Calendar\bin\Debug\WindowsFormsApp1.pdb
 C:\Users\Malak\source\repos\jado11A\VS1\Calendar\obj\Debug\Calendar.csprojAssemblyReference.cache
-C:\Users\Malak\source\repos\jado11A\VS1\Calendar\obj\Debug\WindowsFormsApp1.wdw_date.resources
 C:\Users\Malak\source\repos\jado11A\VS1\Calendar\obj\Debug\WindowsFormsApp1.wdw_calendar.resources
 C:\Users\Malak\source\repos\jado11A\VS1\Calendar\obj\Debug\WindowsFormsApp1.wdw_login.resources
 C:\Users\Malak\source\repos\jado11A\VS1\Calendar\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
-C:\Users\Malak\source\repos\jado11A\VS1\Calendar\obj\Debug\WindowsFormsApp1.wdw_registry.resources
 C:\Users\Malak\source\repos\jado11A\VS1\Calendar\obj\Debug\Calendar.csproj.GenerateResource.cache
 C:\Users\Malak\source\repos\jado11A\VS1\Calendar\obj\Debug\Calendar.csproj.CoreCompileInputs.cache
 C:\Users\Malak\source\repos\jado11A\VS1\Calendar\obj\Debug\WindowsFormsApp1.exe
 C:\Users\Malak\source\repos\jado11A\VS1\Calendar\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Malak\Source\Repos\jado11A\VS1\Calendar\obj\Debug\WindowsFormsApp1.wdw_Ereignis.resources
+C:\Users\Malak\Source\Repos\jado11A\VS1\Calendar\obj\Debug\WindowsFormsApp1.wdw_registrierung.resources
